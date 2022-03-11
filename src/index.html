@@ -3,21 +3,42 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio_my</title>
+    <title>Mirro</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
       integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Roboto:wght@300&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto&family=Source+Serif+Pro&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/index.css" />
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="header__nav">
+          <a class="header__logo" href="/">Mirro</a>
+          <ul class="header__links">
+            <li class="header__item"><a class="header__link" href="">Presets</a></li>
+            <li class="header__item"><a class="header__link" href="">Prints</a></li>
+            <li class="header__item"><a class="header__link" href="">Store</a></li>
+            <li class="header__item"><a class="header__link" href="">About</a></li>
+            <li class="header__item"><a class="header__link" href="">Contact</a></li>
+          </ul>
+          <button class="header__button">
+            <svg class="icon-cart">
+              <use href="./images/symbol-defs.svg#icon-cart"></use>
+            </svg>
+            <p class="header__cart">Cart</p>
+            <span class="header__number">0</span>
+          </button>
+        </nav>
+      </div>
+    </header>
+  </body>
 </html>
