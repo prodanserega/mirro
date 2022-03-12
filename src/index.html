@@ -21,24 +21,49 @@
   <body>
     <header class="header">
       <div class="container">
-        <nav class="header__nav">
-          <a class="header__logo" href="/">Mirro</a>
-          <ul class="header__links">
-            <li class="header__item"><a class="header__link" href="">Presets</a></li>
-            <li class="header__item"><a class="header__link" href="">Prints</a></li>
-            <li class="header__item"><a class="header__link" href="">Store</a></li>
-            <li class="header__item"><a class="header__link" href="">About</a></li>
-            <li class="header__item"><a class="header__link" href="">Contact</a></li>
-          </ul>
-          <button class="header__button">
-            <svg class="icon-cart">
-              <use href="./images/symbol-defs.svg#icon-cart"></use>
-            </svg>
-            <p class="header__cart">Cart</p>
-            <span class="header__number">0</span>
-          </button>
-        </nav>
+        <div class="header__blok">
+          <nav class="header__nav">
+            <a class="header__logo" href="/">Mirro</a>
+            <ul class="header__links">
+              <li class="header__item"><a class="header__link" href="">Presets</a></li>
+              <li class="header__item"><a class="header__link" href="">Prints</a></li>
+              <li class="header__item"><a class="header__link" href="">Store</a></li>
+              <li class="header__item"><a class="header__link" href="">About</a></li>
+              <li class="header__item"><a class="header__link" href="">Contact</a></li>
+            </ul>
+            <button class="header__button">
+              <svg class="icon-cart">
+                <use href="./images/symbol-defs.svg#icon-cart"></use>
+              </svg>
+              <p class="header__cart">Cart</p>
+              <span class="header__number">0</span>
+            </button>
+          </nav>
+        </div>
       </div>
     </header>
+    <main>
+      <section class="hero">
+        <div class="hero__shadow_1"></div>
+        <div class="container">
+          <div class="hero__blok">
+            <div class="hero__blok_text">
+              <h1 class="hero__title">Hi, I'm James Mirro & I'm a photographer.</h1>
+              <p class="hero__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in
+                eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum
+                nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id
+                rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
+              </p>
+              <button class="hero__button">Read more</button>
+            </div>
+            <div class="hero__blok_img">
+              <img class="hero__foto" src="./images/IMAGE.jpg" width="552" height="773" alt="man" />
+            </div>
+          </div>
+        </div>
+        <div class="hero__shadow_2"></div>
+      </section>
+    </main>
   </body>
 </html>
