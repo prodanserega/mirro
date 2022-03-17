@@ -251,7 +251,8 @@ h5 {
   display: grid;
   grid-template-columns: repeat(3, 379px);
   grid-template-rows: repeat(3, 335px);
-
+  grid-row-gap: 16px;
+  grid-column-gap: 16px;
   align-self: center;
   justify-content: center;
 }
@@ -262,8 +263,8 @@ h5 {
   background: #f4f3f0;
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.03);
   border-radius: 16px;
-  margin-right: 16px;
-  margin-bottom: 16px;
+  /* margin-right: 16px; */
+  /* margin-bottom: 16px; */
 }
 
 .services__item:last-child {
