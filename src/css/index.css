@@ -439,3 +439,24 @@ h5 {
 .store__button_wrapper {
   text-align: center;
 }
+
+/*---------------------------------------------------------contact---------------------------*/
+
+.contact {
+}
+
+.contact__blok {
+  display: flex;
+  padding: 80px;
+  background: #f4f3f0;
+  border-radius: 16px;
+
+  /* justify-content: center; */
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.contact__text {
+  color: #292c32;
+  margin-right: 224px;
+}
