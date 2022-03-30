@@ -449,14 +449,28 @@ h5 {
   display: flex;
   padding: 80px;
   background: #f4f3f0;
+  margin-right: 224px;
+  margin-left: 224px;
   border-radius: 16px;
-
-  /* justify-content: center; */
+  align-items: center;
+  justify-content: space-between;
   margin-top: 100px;
   margin-bottom: 100px;
 }
 
 .contact__text {
   color: #292c32;
-  margin-right: 224px;
+
+  width: 289.76px;
+  font-size: 25px;
+}
+
+.contact__button {
+  background: #3a5f56;
+  border-radius: 6px;
+  padding: 15px 25px;
+  color: #ffffff;
+}
+
+.contact__blok_button {
 }
